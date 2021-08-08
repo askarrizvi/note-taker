@@ -1,3 +1,6 @@
+//This file contains all of the server implementation for the express server
+
+//Include the express module and the routes
 const express = require('express');
 const PORT = process.env.PORT || 3001;
 const apiRoutes = require('./routes/apiRoutes');
@@ -12,6 +15,7 @@ app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
+//Listen on the defined port
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
 });
