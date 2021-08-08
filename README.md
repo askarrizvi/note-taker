@@ -18,7 +18,13 @@
 1: Clone the repository from Github<br />2:  Run NPM Install to install the modules<br />3:  Run "npm start" or "nodemon server.js" to start the server<br />4:  Navigate to http://localhost:3001/ to start using the application<br />
 
 ## Usage
-This application can be used to store and view notes
+This application can be used to store and view notes.
+
+The application can be found here: https://aqueous-ravine-18699.herokuapp.com/
+
+![picture](screenshot/ss1.png)
+![picture](screenshot/ss2.png)
+![picture](screenshot/ss3.png)
 
 
 ## License
