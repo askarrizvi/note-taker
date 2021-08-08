@@ -20,12 +20,10 @@ router.post ("/notes", (req,res) => {
 });
 
 router.delete ("/notes/:id", (req,res) => {
-    console.log("delete route"); 
-    console.log("delete route notes: "+notes); 
     const note = findByID(req.params.id, notes);
-    console.log("delete: "+note);
     if (note) {
-        deleteNote(note, notes);
+        results = deleteNote(note, notes);
     }
+    res.json(results);
 })
 module.exports = router;
