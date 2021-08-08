@@ -1,3 +1,4 @@
+//Pre-defined index.js file
 let noteTitle;
 let noteText;
 let saveNoteBtn;
